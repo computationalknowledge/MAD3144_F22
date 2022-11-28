@@ -1,0 +1,51 @@
+<html>
+<head><Title>Peanut the BICHON</title></head>
+
+<body>
+<style>
+    #sheppard { background-color: green;}
+    .bichon{
+        color:orange;
+        font-size:20;
+    }
+    tr {
+        font-style:fontfamily='arial';
+        font-size:48 pt;
+        color:purple;
+    }
+    h1 {
+    color:yellow;
+    background-color: rgb(4, 8, 8);
+    font-size: 24;
+    }
+    table { border: 10 px   solid red; }
+</style>
+
+<h1> It's all about Dogs</h1>
+
+<table width='800' border=5 color='red'>
+<tr>
+<td>Bichon Frisee</td>
+<td>German Sheppard</td>
+<td>Yorkie</td>
+</tr>
+<tr>
+<td><img width='267' src='https://petlandsarasota.com/wp-content/uploads/2018/08/bichon-frise-puppy-Blog3.jpg'/> </td>
+<td><img width='267'  src='https://tse2.mm.bing.net/th?id=OIP.bTRmGx3mSZ0nbFx3vDvzUwHaEo&pid=Api&P=0&w=292&h=182'/></td>
+<td><img width='267'  src='./yorkie.png'/></td>
+</tr>
+
+<tr>
+<td class="bichon">A bichon is a distinct type of toy dog, 
+    it is typically kept as a companion dog. 
+    Believed to be descended from the Barbet, it is believed 
+    the bichon-type dates to at least the 11th-century, it was 
+    relatively common in 14th-century France where they were kept as the pets of the royalty and aristocracy. From France these dogs spread throughout the courts of Europe, with dogs of very similar form being seen in a number of portraits of the upper-classes of Germany, Portugal and Spain, from Europe the type also spread to colonies in Africa and South America.</td>
+<td id="sheppard">The German Shepherd or German Shepherd Dog, also known as the Alsatian, is a German breed of working dog of medium to large size. It is a modern breed, developed by Max von Stephanitz from various traditional German herding dogs from 1899.</td>
+<td>The Yorkshire Terrier is one of the smallest dog breeds of the terrier type, let alone of any dog breed. The breed developed during the 19th century in Yorkshire, England. Ideally its maximum size is 15 pounds (6.8 kg). A popular companion dog, the Yorkshire Terrier has also been part of the development of other breeds, such as the Silky Terrier. Most have a black and tan coat, but they are also known to have a silver-grey or a blonde coat.</td>
+
+</tr>
+</table>
+
+</body>
+</html>    

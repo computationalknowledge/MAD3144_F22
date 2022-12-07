@@ -1,0 +1,17 @@
+var a = {
+    c:2,
+    d:4, 
+    e:{f:"cat"},
+
+    func() {
+        return "Hello"
+    },
+    funcb() {
+        return "Good Bye"
+    }
+};
+
+// console.log(a.c);
+console.log(a.e.f);
+console.log(a.func());
+console.log(a.funcb());

@@ -15,3 +15,18 @@ var a = {
 console.log(a.e.f);
 console.log(a.func());
 console.log(a.funcb());
+
+////////////   ------------------
+var a = {
+    c:2,
+    d:4, 
+    e:{f:"cat"},
+
+    func() {
+        return a.c+a.d
+    },
+    funcb() {
+        console.log (this);
+        console.log(" I am a placeholder ")
+    }
+};

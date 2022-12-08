@@ -1,7 +1,9 @@
 function decider(){
     var result = Math.floor(Math.random() * 11);
-    return result;
+    if (result > 5){return true;}
+    return false;
 }
 
-var a = decider();
-console.log(a);
+for (counter = 1; counter<11; counter++){
+    var a = decider();
+    console.log(a);}

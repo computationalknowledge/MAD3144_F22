@@ -4,6 +4,6 @@ function decider(){
     return false;
 }
 
-for (counter = 1; counter<11; counter++){
-    var a = decider();
-    console.log(a);}
+const myArgs = process.argv.slice(2);
+console.log('myArgs: ', myArgs);
+
